@@ -1,0 +1,111 @@
+.calendar-container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border: 3px solid #2c3e50;
+  border-radius: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.calendar-header button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.calendar-day-header {
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+.calendar-day-header:first-child {
+    color: #dc3545; /* 일요일 */
+}
+.calendar-day-header:last-child {
+    color: #007bff; /* 토요일 */
+}
+
+
+.calendar-day {
+  min-height: 140px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.calendar-day:hover {
+  transform: scale(1.02);
+}
+
+.day-number {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.not-current-month {
+  color: #ccc;
+}
+
+.today {
+  background: linear-gradient(orange, #ff9800);
+  color: white;
+}
+
+.holiday-normal .day-number {
+  color: #dc3545;
+}
+
+.holiday-substitute .holiday-info {
+  color: #856404;
+  font-weight: bold;
+}
+
+.holiday-lunar_new_year .holiday-info {
+  color: #7b1fa2;
+  font-weight: bold;
+}
+
+.holiday-chuseok .holiday-info {
+  color: #bf360c;
+  font-weight: bold;
+}
+
+
+.lunar-info {
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    padding: 2px 4px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.holiday-info {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 5px;
+}
