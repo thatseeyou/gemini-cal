@@ -126,7 +126,7 @@ interface CalendarDate {
 ### Vite 설정 (vite.config.ts)
 ```typescript
 export default defineConfig({
-  base: '/claude-cal/',
+  base: '/gemini-cal/',
   build: { outDir: 'dist' },
   plugins: [react()]
 })
@@ -187,7 +187,7 @@ git push origin main
 - **코드 라인**: Calendar.tsx ~1,126줄, Calendar.css ~11KB
 - **번들 크기**: ~1.58MB (gzip: ~290KB)
 - **테스트 커버리지**: 32개 테스트 모두 통과
-- **라이브 URL**: https://syoh.github.io/claude-cal/
+- **라이브 URL**: https://thatseeyou.github.io/gemini-cal/
 
 ## 💡 Gemini CLI 사용 팁
 
