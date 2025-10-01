@@ -2,12 +2,12 @@
 
 A beautiful, interactive Korean lunar calendar web application that displays both solar and lunar dates along with Korean holidays and traditional events.
 
-[![Deploy to GitHub Pages](https://github.com/thatseeyou/gemini-cal/actions/workflows/deploy.yml/badge.svg)](https://github.com/thatseeyou/gemini-cal/actions/workflows/deploy.yml)
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://thatseeyou.github.io/gemini-cal/)
-
+[![Deploy to GitHub Pages](https://github.com/thatseeai/gemini-cal/actions/workflows/deploy.yml/badge.svg)](https://github.com/thatseeai/gemini-cal/actions/workflows/deploy.yml)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://thatseeai.github.io/gemini-cal/)
+ai
 ## 🚀 Live Demo
 
-Visit the live application: **[https://thatseeyou.github.io/gemini-cal/](https://thatseeyou.github.io/gemini-cal/)**
+Visit the live application: **[https://thatseeai.github.io/gemini-cal/](https://thatseeai.github.io/gemini-cal/)**
 
 ## ✨ Features
 
@@ -39,7 +39,7 @@ Visit the live application: **[https://thatseeyou.github.io/gemini-cal/](https:/
 
 ```bash
 # Clone the repository
-git clone https://github.com/thatseeyou/gemini-cal.git
+git clone https://github.com/thatseeai/gemini-cal.git
 cd gemini-cal
 
 # Install dependencies
